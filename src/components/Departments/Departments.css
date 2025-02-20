@@ -1,0 +1,25 @@
+.depart-nav{
+
+font-size: 20px ;
+font-weight: 500;
+padding-right: 50px;
+ position: relative;
+}
+.depart-nav::before{
+content: " ";
+right: -1%;
+height: 100%;
+width: 2px;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.479) !important;
+}
+.depart-nav .depart-nav-link{
+    text-decoration: none;
+    color: var(--mainColor) ; 
+    }
+    .depart-nav .active{
+
+        color: var(--sacColor) !important;
+        position: relative;
+   
+    }

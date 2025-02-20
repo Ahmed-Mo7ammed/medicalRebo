@@ -1,0 +1,59 @@
+.services{
+
+
+    background-image: linear-gradient(#f1f7fc , #d5e3ee);
+
+}
+.servece-icon{
+    position: relative;
+height: 70px;
+width:70px;
+background-color: var(--mainColor);
+text-align: center;
+border-radius: 4px;
+margin-bottom: 25px;
+
+z-index: 1;
+}
+.servece-icon:first-child{
+color: white;
+   font-size: 50px; 
+}
+.servece-icon::before{
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    background: 
+    color-mix(in srgb, var(--mainColor), transparent 80%);
+    border-radius: 5px;
+    transition: all 0.3s ease-out 0s;
+    transform: translateZ(-1px) !important;
+    z-index: -1 !important;
+}
+.Service-card{
+padding: 65px 30px;
+border: 1px solid rgba(0, 0, 0, 0.466);
+
+
+}
+.Service-card:hover{
+background-color: var(--mainColor);
+
+
+}
+.Service-card:hover .servece-icon{
+
+    background-color: white
+}
+.Service-card:hover .servece-icon:first-child{
+
+ color:var(--mainColor)
+}
+.Service-card:hover h3 , .Service-card:hover p{
+    color: white !important;
+    
+    
+    }

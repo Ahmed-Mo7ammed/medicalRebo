@@ -1,0 +1,37 @@
+.card-about{
+background-image: linear-gradient(#f1f7fc , #e9eff4);
+
+
+
+}
+.singel-card-about{
+
+    position: relative;
+  background-color: white !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+  
+}
+.singel-icon {
+
+    color: white !important;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.span-icon{
+color:var(--sacColor) !important;
+}
+.card-about .icon{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--sacColor) ;
+    top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+display: flex;
+justify-content: center;
+align-items: center;
+  border: 2px solid white;
+}

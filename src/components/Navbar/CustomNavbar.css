@@ -1,0 +1,84 @@
+nav {
+  background-image: linear-gradient( #fafcfd  , #e3e5e7) !important;
+background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: 7689;
+  width: 100%;
+  height: 70px;
+  border-radius: 0px;
+  padding-bottom: 10px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+@media (max-width: 990px) {
+  .navbar-collapse {
+    z-index: 769;
+    align-items: center;
+    background-image: linear-gradient(#fafcfd , #d8e0e6) !important;
+background-repeat: no-repeat;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  .navbar .container {
+    margin-bottom: 10px !important;
+
+  }
+}
+
+.logo-span {
+  font-family: "Barlow Condensed", serif;
+  font-weight: 600;
+  font-size: 50px !important;
+  
+}
+
+.active {
+  color: var(--sacColor) !important;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: var(--mainColor);
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  transition: .2s ease-in all;
+  position: relative;
+}
+
+/* التأثير الخاص بالخط تحت الرابط */
+.navbar-nav a::after {
+  content: ''; /* محتوى الخط */
+  position: absolute; /* تحديد موضع الخط */
+  bottom: 0; /* وضع الخط أسفل الرابط */
+  left: 0; /* وضع الخط على يسار الرابط */
+  width: 100%; /* عرض الخط */
+  height: 2px; /* سماكة الخط */
+  background-color: var(--sacColor); /* لون الخط */
+  transform: scaleX(0); /* في البداية يكون الخط غير مرئي */
+  transform-origin: bottom left; /* نقطة البداية لتأثير التحويل */
+  transition: transform 0.3s ease-out; /* تأثير التحويل */
+}
+
+/* عند التمرير على الرابط يظهر الخط */
+.navbar-nav a:hover::after {
+  transform: scaleX(1); /* تكبير الخط ليملأ عرض الرابط */
+}
+
+/* تغيير لون النص عند التمرير */
+.navbar-nav a:hover {
+  color: var(--sacColor) !important;
+}
+.navbar-nav .nav-item .dropdown-menu {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    
+  }
+  .navbar-nav .nav-item:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+

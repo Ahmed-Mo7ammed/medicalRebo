@@ -1,0 +1,174 @@
+/* General Footer Styles */
+.footer {
+    background-color: #0f2f3b; /* Dark Blue */
+    color: #fafcfd; /* Light Color for text */
+    padding: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Footer Info (Logo and Contact) */
+  .footer-info {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo h2 {
+    font-size: 30px;
+    color: #3087a7; /* Light Blue */
+    margin-bottom: 10px;
+  }
+  
+  .footer-logo p {
+    font-size: 16px;
+    color: #d8e0e6; /* Light Gray */
+  }
+  
+  .footer-contact h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3087a7; /* Light Blue */
+  }
+  
+  .footer-contact ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-contact ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-contact ul li a {
+    color: #d8e0e6; /* Light Gray */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-contact ul li a:hover {
+    color: #3087a7; /* Light Blue */
+  }
+  
+  /* Footer Links */
+  .footer-links {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .footer-links h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3087a7; /* Light Blue */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links ul li a {
+    color: #d8e0e6; /* Light Gray */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links ul li a:hover {
+    color: #3087a7; /* Light Blue */
+  }
+  
+  /* Footer Newsletter */
+  .footer-newsletter {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+  
+  .footer-newsletter h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3087a7; /* Light Blue */
+  }
+  
+  .footer-newsletter form {
+    display: flex;
+  }
+  
+  .footer-newsletter input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #d8e0e6; /* Light Gray border */
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+    background-color: #fafcfd; /* Light Background for input */
+  }
+  
+  .footer-newsletter button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3087a7; /* Light Blue */
+    color: #fafcfd; /* Light Color for button text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-newsletter button:hover {
+    background-color: #0f2f3b; /* Dark Blue on hover */
+  }
+  
+  /* Footer Social Media */
+  .footer-social {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .footer-social a {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #d8e0e6; /* Light Gray */
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #3087a7; /* Light Blue */
+  }
+  
+  /* Footer Bottom (Copyright) */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #d8e0e6; /* Light Gray */
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-info,
+    .footer-links,
+    .footer-newsletter {
+      flex: none;
+      margin-bottom: 20px;
+    }
+  }
+  
