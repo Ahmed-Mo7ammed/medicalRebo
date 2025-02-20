@@ -85,7 +85,7 @@ export default function About() {
             animate={{x:0}}
             transition={{duration:1}}>
         <div className=" justify-content-center">
-        <h2 className='span-icon  fw-bold fs-1'>About Us</h2>
+        <h2 className='span-icon  fw-bold fs-1'>About Us </h2>
         <p className='text-dark'>Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.</p>
         </div>
         <div className='d-flex'>
