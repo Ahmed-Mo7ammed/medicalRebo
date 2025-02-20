@@ -18,13 +18,13 @@ import Appointment from './components/appointment/Appointment'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 let router=createBrowserRouter([
   {path:"", element:<Layout/>, children:[
-    {index:true, element:<Home/>},
-    {path:"about", element:<About/>},
-    {path:"home", element:<Home/>},
-    {path:"Appointment", element:<Appointment/>},
-    {path:"contact-us", element:<Contact/>},
-    {path:"services", element:<Services/>},
-    {path:"departments", element:<Departments/> , children :[
+    {path:"medecal/", element:<Home/>},
+    {path:"medecal/about", element:<About/>},
+    {path:"medecal/home", element:<Home/>},
+    {path:"medecal/Appointment", element:<Appointment/>},
+    {path:"medecal/contact-us", element:<Contact/>},
+    {path:"medecal/services", element:<Services/>},
+    {path:"medecal/departments", element:<Departments/> , children :[
       {index:true , element:<Cardiology/>},
       {path:"Neurology" , element : <Neurology/>},
       {path:"Hepatology" , element : <Hepatology/>},

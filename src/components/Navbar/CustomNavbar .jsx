@@ -17,11 +17,11 @@ export default function CustomNavbar () {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link><NavLink to="Home">Home</NavLink></Nav.Link>
-            <Nav.Link> <NavLink to="about">About Us</NavLink></Nav.Link>
-            <Nav.Link><NavLink to="services">Services</NavLink></Nav.Link>
-           <Nav.Link><NavLink to="departments">Departments</NavLink></Nav.Link>
-            <Nav.Link > <NavLink to="contact-us">contact us</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="medecal/Home">Home</NavLink></Nav.Link>
+            <Nav.Link> <NavLink to="medecal/about">About Us</NavLink></Nav.Link>
+            <Nav.Link><NavLink to="medecal/services">Services</NavLink></Nav.Link>
+           <Nav.Link><NavLink to="medecal/departments">Departments</NavLink></Nav.Link>
+            <Nav.Link > <NavLink to="medecal/contact-us">contact us</NavLink></Nav.Link>
           
           </Nav>
           <div>
