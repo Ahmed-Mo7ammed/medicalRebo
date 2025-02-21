@@ -17,7 +17,7 @@ import EyeCare from './components/Departments/EyeCare'
 import Appointment from './components/appointment/Appointment'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 let router=createBrowserRouter([
-  {path:"medecal/", element:<Layout/>, children:[
+  {path:"", element:<Layout/>, children:[
     {path:"medecal/", element:<Home/>},
     {path:"medecal/about", element:<About/>},
     {path:"medecal/home", element:<Home/>},
@@ -32,7 +32,7 @@ let router=createBrowserRouter([
       {path:"EyeCare" , element : <EyeCare/>},
       
     ]},
-    {path:"*", element:<Notfound/>},
+    {path:"*", element:<Home/>},
   ] }
 ])
 function App() {

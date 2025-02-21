@@ -13,7 +13,7 @@ export default function CustomNavbar () {
   return (
     <Navbar expand="lg" className='d-flex align-items-center position-fixed w-100 z-3 '>
       <Container>
-        <Navbar.Brand href="/" className='logo-span mainColor '> Medilab </Navbar.Brand>
+        <Navbar.Brand href="medecal/" className='logo-span mainColor '> Medilab </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -27,7 +27,7 @@ export default function CustomNavbar () {
           <div>
           <FontAwesomeIcon icon={faMagnifyingGlass} className='px-3'/>
           
-           <NavLink  className='btn btn-primary mx-2 px-5 rounded-4 text-light' to="Appointment">Make An Appointment</NavLink>
+           <NavLink  className='btn btn-primary mx-2 px-5 rounded-4 text-light' to="medecal/Appointment">Make An Appointment</NavLink>
           </div>
         </Navbar.Collapse>
       </Container>
