@@ -13,7 +13,7 @@ export default function CustomNavbar () {
   return (
     <Navbar expand="lg" className='d-flex align-items-center position-fixed w-100 z-3 '>
       <Container>
-        <Navbar.Brand href="medecal/" className='logo-span mainColor '> Medilab </Navbar.Brand>
+        <h3 className='logo-span mainColor '> Medilab </h3>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
